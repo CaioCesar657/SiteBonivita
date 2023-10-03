@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: -webkit-linear-gradient(left, #f11a1a, #ff9d00); 
+    background: -o-linear-gradient(right,#f11a1a, #ff9d00);
+    background: -moz-linear-gradient(right,#f11a1a, #ff9d00); 
+    background: linear-gradient(to right,#f11a1a, #ff9d00); 
+    color: rgb(255, 204, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#hero {
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 30px 0;
+	color: rgb(255, 0, 0)207, 24, 24);
+}
+
+#hero h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#hero p {
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+#facebook {
+display: inline-block;
+background-color: #3b5998;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+#whatsapp{
+    display: inline-block;
+    color: #fff;
+    padding: 20px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#instagram {
+    display: inline-block;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:2px
+    
+    font-size: 20px;
+    
+  }
+
+#facebook:hover {
+background-color: #2d4373;
+}
+
+
+#instagram:hover {
+        background-color: #732d2d;
+        }
+
+#features {
+margin-top: 60px;
+}
+
+#features h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#features ul {
+list-style: disc;
+margin-left: 40px;
+}
+
+#features li {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#precos {
+margin-top: 60px;
+}
+
+#precos h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#precos p {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#precos a {
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+#precos a:hover {
+background-color: #444;
+}
+
+#contato {
+margin-top: 60px;
+}
+
+#contato h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#contato label {
+display: block;
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#contato input,
+#contato textarea {
+display: block;
+width: 100%;
+padding: 10px;
+font-size: 18px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: none;
+}
+
+#contato button[type="submit"] {
+display: block;
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+font-size: 24px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+#contato button[type="submit"]:hover {
+background-color: #444;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}

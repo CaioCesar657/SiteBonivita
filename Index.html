@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonivita</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <h1><img src="Logo.png" alt="Bonífica" width="75px"> Saúde e bem estar</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#contato">Contate-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Bonífica - Saúde e Bem Estar</h2>
+            <h3>Catálogo de Produtos</h3>
+            <div class="slideshow-container">
+                <div class="slides">
+                  <img src="SuplementoAlimentar.jpg"  alt="Suplemento" width="400px">
+                  <p>Suplemento Completo para o Sistema Imunólogico + Colágeno Tipo II.</p>
+                </div>
+            
+                <div class="slides">
+                  <img src="BoniShake.jpg" alt="Boni Shake" width="400px">
+                  <p>Apostando no Equilíbrio para a sua Alimentação, a linha de shakes BONIFICA apresenta em sua composição um mix de vitaminas e minerais que são essenciais para uma promoção de uma boa saúde mental.</p>
+                </div>
+            
+                <div class="slides">
+                  <img src="ChaMedidaUnica.jpg" alt="Chá Medida Única" width="400px">
+                  <p>Promove a queima e eliminação de gordura no corpo.</p>
+                </div>
+              </div>
+            <h3>Visite nossas redes:</h3>
+            <div>
+            <a href="https://www.instagram.com/bonifica_nucleo_arapongas_pr/" target="_blank" id="instagram">Instagram</a>
+            <a href="https://pt-br.facebook.com/joaoedoraci/" target="_blank" id="facebook">Facebook</a>
+            <a href="https://api.whatsapp.com/send?phone=554391766633&text=Olá, quais produtos estão em catálogo?"target="_blank" id="whatsapp"><img src="whatsapp.png" alt="Contato pelo WhatsApp" height="30px"width="100px"/></a>
+            </div>
+        </section>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+        
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("slides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";
+              setTimeout(showSlides, 2000); // Muda a imagem a cada 2 segundos
+            }
+          </script>
+        <section id="features">
+            <h2>Lista de Produtos da Bonifica</h2>
+            <ul>
+                <li>Suplemento Alimentar - Bonivita - Suplemento Completo para o sistema Imunológico + Colágeno tipo II <h3>15 Cápsulas - R$51,00</h3><h3>30 Cápsulas - R$100,00</h3></li>
+                <li>Suplemento Ácido Hialurônico - Eternyze - O Suplemento de Ácido hialurônico para a diminuição de linhas finas, flacidez e manchas de pele<h3>R$265,00</h3></li>
+                <li>Cápsula Redutor de Medidas - Medida Única - Promove a queima e eliminação de gordura no corpo<h3>R$106,00</h3></li>
+                <li>Chá Redutor de Medidas - Medida Única  - Promove a queima e eliminação de gordura no corpo<h3>R$60,00</h3></li>
+                <li>Menta e Eucalipto - Bom na Boca - Bom na BOca é um aromatizante e antisséptico que proporciona uma deliciosa sensação de ter acabado de fazer a higiene bucal, deixando o hálito agradável<h3>R$23,00</h3></li>
+                <li>Pomada - Exterminador - Auxilia no alívio da sensação de cansaço adquirido no dia-a-dia. Promove a sensação de bem-estar, ação emoliente e refrescante com toque macio e agradável.<h3>R$72,50</h3></li>
+                <li>Pulseira - Silicone com Imã e Infravermelho - Ação anti-inflamatória, alívio de dores, melhoria do sono reparadorm melhoria da comunicação intracelular, aumento do rendimento das atividades físicas.<h3>R$58,00</h3></li>
+                <li>Pulseira Técnologica - Técnologica com infravermelho e imãs - Ação anti-inflamatória, alívio de dores, melhoria do sono reparador, melhoria da comunicação intracelular, aumento do rendimento das atividades físicas<h3>R$140,00</h3></li>
+                <li>Creme de Limpeza Profunda - Exfolie - Creme de Limpeza-Exfolie promove limpeza profunda da pele facilitando a penetração dos ativos específicos e produzindo melhor ação do produto<h3>R$50,50</h3></li>
+                <li>Chá Diurético - Chá Folhas da Terra - Tem uma ação diurética e laxativo leve, regulando seu intestino sem soltar demais e te auxiliando a eliminar gorduras e toxinas do organismo pela urina <h3>R$44,00</h3></li>
+                <li>Oléo Essencial - Boniminty - Possui ação refrescante bucal, mantendo um hálito, saúdavel, e bem estar<h3>R$38,00</h3></li>
+                <li>Aromatizante Bucal - Calmilive - Aromatizante bucal, puro oléo essencial de capim-limão, tem ação refrescante, mantendo um hálito saudável e bem estar<h3>R$47,90</h3></li>
+                <li>Regulador de Sono - Melatonina - A melatonina é um hormônio produzido naturalmente pelo organismo (na glândula pinneal do cérebro),que possui como principal função regular o ciclo circadiano, estimulando o sono ao final do dia<h3>R$76,00</h3></li>
+                <li>Oléo Ozônizado - Max Ozônio - Auxilia doenças infecciosas agudas e crônicas causadas por vírus bactérias, fungos e parasitas, infecções resistentes a antimicrobianos<h3>R$76,00</h3></li>
+                <li>Aromatizante Bucal - Seiva Nebs - Aromatizante bucal formulado com óleos essenciais para garantir um hálito puro e refrescante.<h3>R$48,90</h3></li>
+                <li>Sopa Calabresa e Feijão - Boni Sopa - Refeições rápidas e práticas se tornaram a melhor opção em dias corridos e atarefados como os dias de hoje.<h3>R$57,72</h3></li>
+                <li>Shake Morango, Açaí, Churros e Coffe - Boni Shake - Apostando no equilíbrio para a sua alimentação, a linha de shakes bonifica apresenta em sua composição um mix de vitaminas e minerais que são essenciais para a promoção de uma boa saúde mental.<h3>R$110,00</h3></li>
+            </ul>
+        </section>
+        <section id="precos">
+            <h2>Preços</h2>
+            <p>Contate-nos para mais informações.</p>
+            <a href="https://bonificabrazil.com.br/33I7U9I0">Se torne um Revendedor</a>
+        </section>
+        <section id="contato">
+            <h2>Dúvidas pelo whatsapp:</h2>          
+            <div id="form-wrapper"></div>
+            <script>
+              const formWrapper = document.getElementById('form-wrapper');
+              
+              // Criação do formulário usando innerHtml
+              formWrapper.innerHTML = `
+                <form>
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="nome"><br>
+        
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email"><br>
+        
+                  <label for="mensagem">Mensagem:</label><br>
+                  <textarea id="mensagem" name="mensagem"></textarea><br>
+        
+                  <button type="submit" onclick="enviarMensagem()">Enviar mensagem por WhatsApp</button>
+                </form>
+              `;
+              
+              // Função para enviar a mensagem por WhatsApp
+              function enviarMensagem() {
+                const nome = document.getElementById('nome').value;
+                const email = document.getElementById('email').value;
+                const mensagem = document.getElementById('mensagem').value;
+                
+                // Substitua o número abaixo pelo número do destinatário
+                const numero = '554391766633';
+                
+                // Abre o aplicativo do WhatsApp com a mensagem pré-preenchida
+                const mensagemWhatsapp = `Olá, meu nome é ${nome} (${email}) e minha mensagem é: ${mensagem}, gostaria de ser revendedor da Bonifica`;
+                const url = `https://api.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(mensagemWhatsapp)}`;
+                window.open(url);
+              }
+            </script>
+        </section>
+    </main>
+    <footer>
+        <p>2023 Bonifica Produtos.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
